@@ -1,0 +1,117 @@
+.header img{
+  width:170px;
+  max-height:120px;
+}
+.header{
+  background:#ddd;
+}
+.header ul{
+  margin-bottom:0px;
+}
+.header ul li{
+  display:inline-block;
+
+}
+.header ul li a {
+  text-decoration:none;
+  color:black;
+  padding:0px 18px;
+ 
+  display:inline-block;
+  font-size:40px;
+ 
+ line-height:120px;
+  border-right:1px solid white;
+}
+  
+.header ul li a:hover {
+  background:#fb5200;
+  color:white;
+}
+/*banner section*/
+.banner{
+padding:150px 0px;
+  background-image:url('/society.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+  position:relative;
+  z-index:1;
+  
+}
+
+.banner-text h2{
+  display:inline-block;
+  background:#ddd;
+  padding:5px 10px;
+  font-size:40px;
+  border-radius:5px;
+  margin-bottom:50px;
+}
+.banner-text h1{ margin:auto;
+  width:500px;
+ background-color:rgba(255, 99, 71, 0.6);
+  
+  color:white;
+  
+  padding:10px 15px;
+  font-size:40px;
+  border-radius:5px;
+  text-transform:uppercase;
+}
+
+/*hover*/
+.click::before{ 
+
+content:'';
+position:absolute;
+top:0%;
+left:100%;
+width:0%;
+height:100%;
+background-color: rgba(255, 99, 71, 0.6);
+
+transition:.4s;
+z-index:-1;
+}
+
+
+.click:hover::before{ 
+
+width:100%;
+left:0%;
+}
+
+/*logfrom*/
+
+.log-from{   text-align:center;
+  padding:100px 0px;
+
+  background:url('logimg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:500px;
+}
+.mid{
+  box-shadow:4px 4px 4px 0px red;
+}
+.e{
+ padding:15px 7px;
+ font-size:20px;
+ margin-bottom:15px;
+ border-radius:5px;
+ 
+}
+button{ text-align:center;
+  padding:15px 10px;
+  font-size:20px;
+  border-radius:10px;
+  background:blue;
+  text-transform:uppercase;
+  width:150px;
+  color:white;
+  place-items:center;
+}
+
+
+
+
